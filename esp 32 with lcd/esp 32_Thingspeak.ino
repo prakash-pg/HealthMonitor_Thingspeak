@@ -17,13 +17,13 @@ LiquidCrystal_I2C lcd(0x3F,16,2);
 
 
 
-const char* ssid = "GNXS-2EC0D0";   // your network SSID (name) 
-const char* password = "9629090034";   // your network password
+const char* ssid = "your wifi name";   // your network SSID (name) 
+const char* password = "your wifi password";   // your network password
 
 WiFiClient  client;
 
-unsigned long myChannelNumber = 1910851;
-const char * myWriteAPIKey = "UJBRJU7CDER1WK05";
+unsigned long myChannelNumber = xxxxxxxxx;
+const char * myWriteAPIKey = "xxxxxxxxxxxxxxxxxxxxxxx";
 
 // Timer variables
 unsigned long lastTime = 0;
